@@ -1,0 +1,52 @@
+/* Inicio estilos gerais */
+body {
+  width: 100%;
+  margin: 0;
+}
+
+/* Fim estilos gerais */
+
+/* Inicio estilo cabeçalho/menu */
+
+nav {
+  padding: 20px 80px;
+  display: flex;
+  background-color: #d9d9d9;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+#menu {
+  float: right;
+}
+
+/* Fim estilo cabeçalho/menu */
+
+/* Inicio do Rodapé */
+
+footer {
+  position: fixed;
+  padding: 35px;
+  margin: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #d9d9d9;
+}
+
+footer span {
+  display: flex;
+  justify-content: center;
+}
+
+span b {
+  padding-left: 10px;
+}
+
+/* Fim do rodapé */
