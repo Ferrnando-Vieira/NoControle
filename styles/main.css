@@ -40,7 +40,8 @@ footer {
   background-color: #d9d9d9;
 }
 
-footer span {
+footer span,
+ul {
   display: flex;
   justify-content: center;
 }
@@ -48,5 +49,11 @@ footer span {
 span b {
   padding-left: 10px;
 }
-
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #7d7d7d;
+  border-radius: 50%;
+  display: inline-block;
+}
 /* Fim do rodapé */
