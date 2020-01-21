@@ -13,33 +13,74 @@
     <title>No Controle</title>
   </head>
   <body>
-    <nav>
-      <span><a href="#">LOGOTIPO</a></span>
-      <ul id="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav id="cabecalho">
+        <span>
+          <a href="index.html"
+            ><img
+              src="assets/logo-branco.png"
+              id="logo-cabecalho"
+              alt="logotipo"
+          /></a>
+        </span>
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contato</a></li>
+          <li>
+            <a href="#"
+              ><img src="assets/lupa.png" id="ico-geral" alt="procurar"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <div id="main"></div>
 
     <footer>
-      <span id="quotes">"Frase 1"<b>Pessoa 1</b></span>
+      <nav id="rodape">
+        <span>
+          <img
+            src="assets/logo-branco.png"
+            id="logo-cabecalho"
+            alt="logotipo"
+          />
+        </span>
 
-      <ul>
-        <li>
-          <a class="dot" href="#" role="button" onClick="changeQuote(1)"></a>
-        </li>
-        <li>
-          <a class="dot" href="#" role="button" onClick="changeQuote(2)"></a>
-        </li>
-        <li>
-          <a class="dot" href="#" role="button" onClick="changeQuote(3)"></a>
-        </li>
-      </ul>
+        <span>
+          <p id="direitos">
+            <b>NoControle.blog.</b> Todos os direitos reservados.
+          </p>
+        </span>
+
+        <ul id="menu">
+          <li>
+            <a href="https://www.instagram.com/nocontrole.blog/" target="_blank"
+              ><img
+                src="assets/ico-insta-branco.png"
+                id="ico-geral"
+                alt="instagram"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="assets/ico-insta-branco.png"
+                id="ico-geral"
+                alt="facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="assets/ico-insta-branco.png"
+                id="ico-geral"
+                alt="linkedin"
+            /></a>
+          </li>
+        </ul>
+      </nav>
     </footer>
-
-    <script src="js/main.js"></script>
   </body>
 </html>
