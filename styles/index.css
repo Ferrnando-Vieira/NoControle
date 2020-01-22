@@ -2,12 +2,46 @@
   width: 100%;
 }
 
-#post-principal {
-  height: 420px;
-  margin-top: 150px;
-  margin-bottom: 95px;
+#ebook-gratuito {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: #3057d7;
 }
 
+#titulo-ebook-principal {
+  margin: 20px 0px;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 115%;
+  color: #000000;
+}
+
+#ebook-principal {
+  margin-top: -180px;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+#descricao-ebook-principal {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+}
+
+#baixar-ebook-principal {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on;
+  background: #3057d7;
+  border-radius: 25px;
+  padding: 20px 50px;
+}
 #sessao-blog {
   margin-top: 90px;
 }
