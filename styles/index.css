@@ -25,9 +25,11 @@
 }
 
 #descricao-ebook-principal {
+  text-align: justify;
   font-weight: 300;
   font-size: 16px;
   line-height: 18px;
+
   color: #000000;
 }
 
@@ -65,16 +67,6 @@
   padding-bottom: 40px;
   color: #464646;
   opacity: 0.8;
-}
-
-#descricao-principal {
-  text-align: justify;
-  text-justify: inter-word;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
 }
 
 #titulo-blog {

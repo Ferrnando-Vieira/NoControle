@@ -84,6 +84,19 @@ nav {
   height: 100%;
 }
 
+#pesquisa {
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 2px;
+  text-indent: 10px;
+  line-height: 100%;
+  padding: 5px 0;
+  letter-spacing: -0.2px;
+  background: url("../assets/lupa.png") no-repeat scroll 95% 5px;
+  padding-right: 6%;
+  max-width: 280px;
+}
+
 #logo-cabecalho {
   max-height: 90px;
   max-width: 200px;
@@ -93,7 +106,6 @@ nav {
 
 ul {
   margin-bottom: 0 !important;
-  margin-right: 150px;
 }
 
 li {
@@ -107,8 +119,6 @@ li {
 }
 
 #menu a {
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   color: #000;
