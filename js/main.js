@@ -17,7 +17,7 @@ function download_pdf() {
 }
 
 function download_file(fileURL, fileName) {
-  // for non-IE
+  // Outros Browsers
   if (!window.ActiveXObject) {
       var save = document.createElement('a');
       save.href = fileURL;
@@ -26,7 +26,6 @@ function download_file(fileURL, fileName) {
       save.download = fileName || filename;
        if ( navigator.userAgent.toLowerCase().match(/(ipad|iphone|safari)/) && navigator.userAgent.search("Chrome") < 0) {
       document.location = save.href; 
-// window event not working here
     }else{
           var evt = new MouseEvent('click', {
               'view': window,
@@ -38,7 +37,7 @@ function download_file(fileURL, fileName) {
     }	
   }
 
-  // for IE < 11
+  // Internet Explorer
   else if ( !! window.ActiveXObject && document.execCommand)     {
       var _window = window.open(fileURL, '_blank');
       _window.document.close();
