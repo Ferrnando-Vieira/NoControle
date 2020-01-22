@@ -8,15 +8,16 @@
 footer {
   margin: 0;
   bottom: 0;
+  padding-left: 32px;
   height: 120px;
   width: 100%;
   background: #464646;
   box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.1);
 }
 
-#rodape-ebook {
+/*#rodape-ebook {
   margin-top: 50px;
-}
+}*/
 
 #rodape-ebook .row {
   margin: 0 !important;
