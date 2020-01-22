@@ -12,7 +12,7 @@ function changeQuote(quoteId) {
 
 
 function download_pdf() {
-  var url = 'http://nocontrole.blog.br/files/carnavalNoControle.pdf', name = 'carnavalNoControle.pdf';
+  var url = '../files/carnavalNoControle.pdf', name = 'Carnaval No Controle';
   download_file(url, name);
 }
 
@@ -24,7 +24,7 @@ function download_file(fileURL, fileName) {
       save.target = '_blank';
       var filename = fileURL.substring(fileURL.lastIndexOf('/')+1);
       save.download = fileName || filename;
-       if ( navigator.userAgent.toLowerCase().match(/(ipad|iphone|safari)/) && navigator.userAgent.search("Chrome") < 0) {
+       if (navigator.userAgent.toLowerCase().match(/(ipad|iphone|safari)/) && navigator.userAgent.search("Chrome") < 0) {
       document.location = save.href; 
     }else{
           var evt = new MouseEvent('click', {
