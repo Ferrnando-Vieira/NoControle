@@ -41,7 +41,6 @@ h2 {
   font-weight: bold;
   font-size: 16px !important;
   line-height: 100%;
-  font-feature-settings: "pnum" on, "lnum" on;
 }
 
 #subtitulo-atalho {

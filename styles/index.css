@@ -37,7 +37,6 @@
   line-height: 100%;
   text-align: center;
   text-transform: uppercase;
-  font-feature-settings: "pnum" on, "lnum" on;
   background: #3057d7;
   border-radius: 25px;
   padding: 20px 50px;
