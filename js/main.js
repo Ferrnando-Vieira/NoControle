@@ -12,10 +12,11 @@ function changeQuote(quoteId) {
 
 
 function download_pdf() {
-  var url = '../files/carnavalNoControle.pdf', name = 'Carnaval No Controle';
-  download_file(url, name);
+  var url = '../files/carnavalNoControle.pdf';
+  window.open(url, '_blank');;
 }
 
+/*
 function download_file(fileURL, fileName) {
   // Outros Browsers
   if (!window.ActiveXObject) {
