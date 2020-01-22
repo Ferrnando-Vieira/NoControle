@@ -51,6 +51,10 @@
     border: none;
 }
 
+#assinante input[type=submit] {
+    
+}
+
 footer {
     padding-left: 42px;
 }
