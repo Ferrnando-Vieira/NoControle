@@ -42,6 +42,12 @@ footer {
   align-items: flex-start;
 }
 
+#share {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
 #sub {
   width: 100%;
   margin-top: 16px;
