@@ -12,7 +12,7 @@ function changeQuote(quoteId) {
 
 
 function download_pdf() {
-  var url = 'http://nocontrole.blog.br/files/carnavalNoControle.pdf', name = 'carnavalNoControle';
+  var url = 'http://nocontrole.blog.br/files/carnavalNoControle.pdf', name = 'carnavalNoControle.pdf';
   download_file(url, name);
 }
 

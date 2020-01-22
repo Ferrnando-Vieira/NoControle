@@ -69,19 +69,19 @@
                 <div class="col-lg-6">
                   <form
                     method="POST"
-                    onSubmit="download_pdf()"
+                    action="https://smtl.gama.academy/leads/f5d1eb00-39f4-11ea-96ea-713ae26a8736"
+                    onSubmit="javascript:download_pdf()"
                   >
-                  <!-- action="https://smtl.gama.academy/leads/f5d1eb00-39f4-11ea-96ea-713ae26a8736" -->
                   <div id="form-box">
                     <span>E-BOOK</span>
                     <h3>Purpurina, Corote & Economia!</h3>
                     <span>Tá afim de curtir o Carnaval mas a grana tá curta? Então você veio ao lugar certo! A gente produziu um e-book exclusivo com todas as dicas que você precisa para aproveitar muuuuito o Carnaval de BH gastando o mínimo possível! Preencha com seus dados e baixe agora! Aproveite e compartilhe com os amigos!</span>
                     <input
-                      name="nome"
+                      name="name"
                       type="text"
                       pattern="^\D{2,}\s[\D\s]{2,}$"
-                      title="Nome"
-                      placeholder="Nome"
+                      title="Nome Completo"
+                      placeholder="Nome Completo"
                       required
                     />
                     <input
@@ -91,7 +91,7 @@
                       placeholder="E-mail"
                       required
                     />
-                    <input name="redirectTo" type="hidden" value="ebook.html" />
+                    <input name="redirectTo" type="hidden" value="http://nocontrole.blog.br/pages/ebook.html" />
                     <input name="debugMode" type="hidden" value="true" />
                     <div id="sub">
                       <input type="submit" value="BAIXAR O MATERIAL"/>
