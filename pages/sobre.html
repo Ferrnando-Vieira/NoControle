@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="author" content="NoControle" />
     <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
     <link rel="stylesheet" href="../styles/post.css" />
-    <link rel="stylesheet" href="../styles/sobre.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -30,14 +30,6 @@
           <li><a href="../index.html">Home</a></li>
           <li><a href="sobre.html">Sobre</a></li>
           <li><a href="ebook.html">E-book</a></li>
-          <!--</1><li>
-            <input
-              type="text"
-              name="pesquisa"
-              id="pesquisa"
-              placeholder="Busca"
-            />
-          </li>-->
         </ul>
       </nav>
     </header>
@@ -51,8 +43,9 @@
           <div class="row">
             <div class="col-lg-1"></div>
             <div class="col-lg-6 align-self-end">
-              <h2><b>Sobre nós</b></h2>
-              <h5 id="subtitulo-banner">Quem manda na minha terra sou euzis</h5>
+              <h2><b>
+                Quem Somos</b></h2>
+              <h5 id="subtitulo-banner"></h5>
               <div class="col-lg-3"></div>
             </div>
           </div>
@@ -70,37 +63,14 @@
                 <div class="col-lg-3"></div>
                 <div class="col-lg-6">
                   <div id="sobre-txt">
-                   Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Quem num gosta di mé, boa gentis num é. Per aumento de cachacis, eu reclamis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. 
-                   <br><br>Suco de cevadiss deixa as pessoas mais interessantis. Si num tem leite então bota uma pinga aí cumpadi! Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. In elementis mé pra quem é amistosis quis leo. 
-                   <br><br>Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Quem manda na minha terra sou euzis! Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. 
-                   <br><br>Pra lá , depois divoltis porris, paradis. Atirei o pau no gatis, per gatis num morreus. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! 
-                   <br><br>Aenean aliquam molestie leo, vitae iaculis nisl. Delegadis gente finis, bibendum egestas augue arcu ut est. Diuretics paradis num copo é motivis de denguis. Leite de capivaris, leite de mula manquis sem cabeça.
+                    <img src="../assets/nos.jfif" style="height: auto; width: 100%;" title="Quem Somos">
+                    <p>O No Controle nasceu em uma mesa de bar, quando conversávamos sobre a vida e percebemos uma coisa: Somos publicitários, administradores, desenvolvedores, fotógrafos, designers, engenheiros - mas todos com uma questão em comum, qual a melhor forma de administrar nosso tão suado dinheiro?</p>
+                    <p>Desde então, começamos a estudar muito sobre o assunto e trocar conhecimentos sobre finanças, economia e investimento. E agora temos um propósito: te ensinar de forma simples, prática e sem muita burocracia a fazer o seu dinheiro chegar ao final do mês, e até render!</p>
+                    <p>Mais do que um blog de finanças que só fala sobre números, falamos desde às mínimas coisas que você pode fazer no seu dia a dia para gastar menos, até formas simples ganhar uma renda extra.</p>
+                    <p>Estamos em constante aprendizado, portanto fiquem a vontade para opinar e sugerir novos conteúdos e abordagens!</p>
                   </div>
                 </div>
                 <div class="col-3">
-                  <div id="assinante">
-                    <h5>Mussum Ipsum, cacilds vidis litro abertis</h5>
-                    <span>
-                      Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.
-                    </span>
-                    <form>
-                      <input
-                      name="nome"
-                      type="text"
-                      pattern="^\D{2,}\s[\D\s]{2,}$"
-                      title="Nome"
-                      placeholder="Nome"
-                      required
-                    />
-                    <input
-                      name="email"
-                      type="email"
-                      title="E-mail"
-                      placeholder="E-mail"
-                      required
-                    />
-                    </form>
-                  </div>
                 </div>
 
                 <div class="col-lg-3"></div>
@@ -110,21 +80,121 @@
           </div>
         </div>
       </div>
+
+      <!-- Posts do blog -->
+      <div id="sessao-blog" class="container">
+        <div class="row">
+          <span><img src="../assets/blog-ico.png" id="ico-blog" alt="blog"></span>
+          <h3 id="titulo-blog">Destaques</h3>
+        </div>
+
+        <div class="row linha-postagem">
+          <div class="col-lg-4">
+            <div class="atalho-post">
+              <img src="../assets/post1.png" class="thumb-blog" alt="thumb">
+              <div class="descricao-atalho-post">
+                <h5 class="titulo-atalho-blog">
+                  Vale a pena ter uma conta digital?
+                </h5>
+                <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
+                <a href="../pages/post1.html">
+                  <button id="ler-mais" type="button" class="btn btn-primary align-self-end">LER MAIS</button>
+                </a>
+              </div>             
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="atalho-post">
+              <img src="../assets/post2.jpg" class="thumb-blog" alt="thumb">
+              <div class="descricao-atalho-post">
+                <h5 class="titulo-atalho-blog">
+                  10 dicas de fantasias estilo “faça você mesmo” para o Carnaval!
+                </h5>
+                <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
+                <a href="../pages/post2.html">
+                  <button id="ler-mais" type="button" class="btn btn-primary">LER MAIS</button>
+                </a>
+              </div>              
+            </div class="atalho-post">
+          </div>
+          <div class="col-lg-4">
+            <div class="atalho-post">
+              <img src="../assets/post3.jpg" class="thumb-blog" alt="thumb">
+              <div class="descricao-atalho-post">
+                <h5 class="titulo-atalho-blog">
+                  7 Dicas para economizar no Carnaval de rua em Belo Horizonte
+                </h5>
+                <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
+                <a href="../pages/post3.html">
+                  <button id="ler-mais" type="button" class="btn btn-primary">LER MAIS</button>
+                </a>
+              </div>              
+            </div class="atalho-post">
+          </div>
+        </div>
+
+        <div class="row linha-postagem ">
+          <div class="col-lg-4">
+            <div class="atalho-post">
+              <img src="../assets/post4.jpg" class="thumb-blog" alt="thumb">
+              <div class="descricao-atalho-post">
+                <h5 class="titulo-atalho-blog">
+                  Empreendedorismo Digital
+                </h5>
+                <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
+                <a href="../pages/post4.html">
+                  <button id="ler-mais" type="button" class="btn btn-primary">LER MAIS</button>
+                </a>
+              </div>              
+            </div class="atalho-post">
+          </div>
+          <div class="col-lg-4">
+            <div class="atalho-post">
+              <img src="../assets/post5.png" class="thumb-blog" alt="thumb">
+              <div class="descricao-atalho-post">
+                <h5 class="titulo-atalho-blog">
+                  Pule carnaval ganhando dinheiro
+                </h5>
+                <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
+                <a href="../pages/post5.html">
+                  <button id="ler-mais" type="button" class="btn btn-primary">LER MAIS</button>
+                </a>
+              </div>              
+            </div class="atalho-post">
+          </div>
+          <div class="col-lg-4">
+            <div class="atalho-post">
+              <img src="../assets/post6.jpg" class="thumb-blog" alt="thumb">
+              <div class="descricao-atalho-post">
+                <h5 class="titulo-atalho-blog">
+                  Como ganhar dinheiro vendendo suas roupas em brechós virtuais 
+                </h5>
+                <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
+                <a href="../pages/post6.html">
+                  <button id="ler-mais" type="button" class="btn btn-primary">LER MAIS</button>
+                </a>
+              </div>              
+            </div class="atalho-post">
+          </div>
+        </div>
+      </div>
+      <!-- Fim da sessao dos posts do blog -->
+      </div>
       <!-- Fim da área do post -->
     </div>
 
     <footer>
       <div id="rodape">
         <div id="linha-rodape" class="row align-items-center">
-          <div class="col-lg-2"></div>
+          <div class="col-lg-1"></div>
           <div class="col-lg-3">
             <img
               src="../assets/logo-branco.png"
               id="logo-cabecalho"
               alt="logotipo"
-            />
+            />             
           </div>
-          <div class="col-lg-6 align-self-center">
+          <div class="col-lg-7 align-self-center"> 
             <p id="direitos">
               <b>NoControle.blog.</b> Todos os direitos reservados.
             </p>
