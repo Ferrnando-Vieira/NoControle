@@ -25,12 +25,9 @@
           /></a>
         </span>
         <ul id="menu">
-          <!-- <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="pages/sobre.html">Sobre</a></li>
           <li><a href="pages/ebook.html">E-book</a></li>
-          <li>
-            <input type="text" name="pesquisa" id="pesquisa" placeholder="Busca">
-          </li> -->
         </ul>
       </nav>
     </header>
@@ -41,12 +38,12 @@
       <div id="banner">
         <div class="container">
           <div class="row">
-            <div class="col-lg-7 align-self-center">
+            <div id="texto-banner" class="col-lg-7 align-self-center">
               <h1><b>Educação Financeira </br>
                   sem complicação</b>
               </h1>              
             </div>
-            <div class="col-lg-5 align-self-center">
+            <div id="img-banner" class="col-lg-5 align-self-center">
               <img class="img-fluid" src="assets/pessoas-banner.png" alt="pessoas banner">
             </div>
           </div>
@@ -60,10 +57,10 @@
         <div id="ebook-principal" class="container">
           <div class="row">
             <div class="col-lg-1"></div>
-            <div class="col-lg-5 align-self-center">
+            <div id="img-ebook-principal" class="col-lg-5 align-self-center">
               <img class="img-fluid" src="assets/ebook.png" alt="ebook">
             </div>
-            <div class="col-lg-5 align-self-center">
+            <div id="div-descricao-ebook" class="col-lg-5 align-self-center">
               <p id="ebook-gratuito">E-book gratuito</p>
               <h3 id="titulo-ebook-principal">Purpurina, corote & Economia</h3>
               <p id="descricao-ebook-principal">Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. 
@@ -86,67 +83,91 @@
 
         <div class="row linha-postagem">
           <div class="col-lg-4">
-            <div>
-              <img src="assets/thumb-principal.jpg" class="thumb-blog" alt="thumb">
-              <h5 class="titulo-atalho-blog">
-                Quem manda na minha terra sou euzis, taligadis?
-              </h5>
-              <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
-              <button id="ler-mais" type="button" class="btn btn-primary">LER MAIS</button>
+            <div class="atalho-post">
+              <img src="assets/post1.png" class="thumb-blog" alt="thumb">
+              <div class="descricao-atalho-post">
+                <h5 class="titulo-atalho-blog">
+                  Vale a pena ter uma conta digital?
+                </h5>
+                <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
+                <a href="pages/post1.html">
+                  <button id="ler-mais" type="button" class="btn btn-primary align-self-end">LER MAIS</button>
+                </a>
+              </div>             
             </div>
           </div>
           <div class="col-lg-4">
-            <div>
-              <img src="assets/thumb-principal.jpg" class="thumb-blog" alt="thumb">
-              <h5 class="titulo-atalho-blog">
-                Quem manda na minha terra sou euzis, taligadis?
-              </h5>
-              <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
-              <button id="ler-mais" type="button" class="btn btn-primary">LER MAIS</button>
-            </div>
+            <div class="atalho-post">
+              <img src="assets/post2.jpg" class="thumb-blog" alt="thumb">
+              <div class="descricao-atalho-post">
+                <h5 class="titulo-atalho-blog">
+                  10 dicas de fantasias estilo “faça você mesmo” para o Carnaval!
+                </h5>
+                <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
+                <a href="pages/post2.html">
+                  <button id="ler-mais" type="button" class="btn btn-primary">LER MAIS</button>
+                </a>
+              </div>              
+            </div class="atalho-post">
           </div>
           <div class="col-lg-4">
-            <div>
-              <img src="assets/thumb-principal.jpg" class="thumb-blog" alt="thumb">
-              <h5 class="titulo-atalho-blog">
-                Quem manda na minha terra sou euzis, taligadis?
-              </h5>
-              <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
-              <button id="ler-mais" type="button" class="btn btn-primary">LER MAIS</button>
-            </div>
+            <div class="atalho-post">
+              <img src="assets/post3.jpg" class="thumb-blog" alt="thumb">
+              <div class="descricao-atalho-post">
+                <h5 class="titulo-atalho-blog">
+                  7 Dicas para economizar no Carnaval de rua em Belo Horizonte
+                </h5>
+                <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
+                <a href="pages/post3.html">
+                  <button id="ler-mais" type="button" class="btn btn-primary">LER MAIS</button>
+                </a>
+              </div>              
+            </div class="atalho-post">
           </div>
         </div>
 
-        <div class="row linha-postagem">
+        <div class="row linha-postagem ">
           <div class="col-lg-4">
-            <div>
-              <img src="assets/thumb-principal.jpg" class="thumb-blog" alt="thumb">
-              <h5 class="titulo-atalho-blog">
-                Quem manda na minha terra sou euzis, taligadis?
-              </h5>
-              <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
-              <button id="ler-mais" type="button" class="btn btn-primary">LER MAIS</button>
-            </div>
+            <div class="atalho-post">
+              <img src="assets/post4.jpg" class="thumb-blog" alt="thumb">
+              <div class="descricao-atalho-post">
+                <h5 class="titulo-atalho-blog">
+                  Empreendedorismo Digital
+                </h5>
+                <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
+                <a href="pages/post4.html">
+                  <button id="ler-mais" type="button" class="btn btn-primary">LER MAIS</button>
+                </a>
+              </div>              
+            </div class="atalho-post">
           </div>
           <div class="col-lg-4">
-            <div>
-              <img src="assets/thumb-principal.jpg" class="thumb-blog" alt="thumb">
-              <h5 class="titulo-atalho-blog">
-                Quem manda na minha terra sou euzis, taligadis?
-              </h5>
-              <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
-              <button id="ler-mais" type="button" class="btn btn-primary">LER MAIS</button>
-            </div>
+            <div class="atalho-post">
+              <img src="assets/post5.png" class="thumb-blog" alt="thumb">
+              <div class="descricao-atalho-post">
+                <h5 class="titulo-atalho-blog">
+                  Pule carnaval ganhando dinheiro
+                </h5>
+                <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
+                <a href="pages/post5.html">
+                  <button id="ler-mais" type="button" class="btn btn-primary">LER MAIS</button>
+                </a>
+              </div>              
+            </div class="atalho-post">
           </div>
           <div class="col-lg-4">
-            <div>
-              <img src="assets/thumb-principal.jpg" class="thumb-blog" alt="thumb">
-              <h5 class="titulo-atalho-blog">
-                Quem manda na minha terra sou euzis, taligadis?
-              </h5>
-              <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
-              <button id="ler-mais" type="button" class="btn btn-primary">LER MAIS</button>
-            </div>
+            <div class="atalho-post">
+              <img src="assets/post6.jpg" class="thumb-blog" alt="thumb">
+              <div class="descricao-atalho-post">
+                <h5 class="titulo-atalho-blog">
+                  Como ganhar dinheiro vendendo suas roupas em brechós virtuais 
+                </h5>
+                <p id="subtitulo-atalho">Educação Financeira • 15/01/2020</p>
+                <a href="pages/post6.html">
+                  <button id="ler-mais" type="button" class="btn btn-primary">LER MAIS</button>
+                </a>
+              </div>              
+            </div class="atalho-post">
           </div>
         </div>
       </div>

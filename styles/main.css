@@ -43,6 +43,12 @@ h2 {
   line-height: 100%;
 }
 
+#ler-mais:hover,
+#baixar-ebook-principal:hover {
+  background-color: #9affe7;
+  color: #3057d7;
+}
+
 #subtitulo-atalho {
   font-size: 16px;
   line-height: 150%;
