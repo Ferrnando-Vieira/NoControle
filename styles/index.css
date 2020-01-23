@@ -22,6 +22,8 @@
   background-color: #fff;
   box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
   border-radius: 3px;
+  width: 100%;
+  height: auto;
 }
 
 #descricao-ebook-principal {

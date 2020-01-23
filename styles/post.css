@@ -16,7 +16,10 @@
   text-align: justify;
 }
 
-/*#sobre-txt img {
-  padding-left: 15%;
-  padding-right: 15%;
+#sobre-txt img, .img-b {
+  border-radius: 16px;
+}
+
+.atalho-post img {
+  border-radius: 8px;
 }
