@@ -10,8 +10,11 @@ function changeQuote(quoteId) {
   }
 }
 
-
 function download_pdf() {
+  window.open('../files/carnavalNoControle.pdf', '_blank');
+}
+
+/*function download_pdf() {
   var url = '../files/carnavalNoControle.pdf', name = 'CarnavalNoControle';
   download_file(url, name);
 }
@@ -44,4 +47,4 @@ function download_file(fileURL, fileName) {
       _window.document.execCommand('SaveAs', true, fileName || fileURL)
       _window.close();
   }
-}
+}*/
