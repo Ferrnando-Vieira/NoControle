@@ -6,10 +6,6 @@
 
 /* Inicio dos estilos específicos do Rodapé */
 footer {
-  margin: 0;
-  bottom: 0;
-  height: 120px;
-  width: 100%;
   background: #1B48D1;
   box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.1);
 }
