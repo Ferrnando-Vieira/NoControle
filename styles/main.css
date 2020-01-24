@@ -79,6 +79,8 @@ h5 {
 #banner {
   height: 500px;
   background-color: #3057d7;
+  width: 99.9%;
+  margin-left: 0.1%;
 }
 
 #banner .row {
@@ -88,30 +90,37 @@ h5 {
 
 .banner-1 {
   background: url("../assets/post1-capa.jpg") no-repeat;
+  background-position: center;
 }
 
 .banner-2 {
   background: url("../assets/post2-capa.jpg") no-repeat;
+  background-position: center;
 }
 
 .banner-3 {
   background: url("../assets/post3-capa.jpg") no-repeat;
+  background-position: center;
 }
 
 .banner-4 {
-  background: url("../assets/post4-capa.jpg") no-repeat;
+  background: url("../assets/post4-capa.jpeg") no-repeat;
+  background-position: center;
 }
 
 .banner-5 {
   background: url("../assets/post5-capa.jpg") no-repeat;
+  background-position: center;
 }
 
 .banner-6 {
   background: url("../assets/post6-capa.jpg") no-repeat;
+  background-position: center;
 }
 
 .banner-sobre {
   background: url("../assets/sobre-capa.jpg") no-repeat;
+  background-position: center;
 }
 
 /* Fim do estilo do banner */
