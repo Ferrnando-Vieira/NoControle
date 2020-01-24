@@ -12,19 +12,29 @@ body {
   margin: 0;
 }
 
-h1 {
+#tit-principal {
   font-weight: bold;
   font-size: 64px !important;
   line-height: 74px !important;
   color: #9affe7 !important;
 }
 
-h2 {
+h1 {
   font-weight: bold;
   font-size: 36px;
   line-height: 41px;
-  text-transform: uppercase;
   color: #fff !important;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 18px !important;
+  line-height: 41px;
+  color: #fff !important;
+}
+
+h5 {
+  color: #3057d7 !important;
 }
 
 #ico-geral {
@@ -67,13 +77,41 @@ h2 {
 }
 
 #banner {
-  height: 650px;
+  height: 500px;
   background-color: #3057d7;
 }
 
 #banner .row {
-  height: 700px;
+  height: 500px;
   padding-bottom: 50px;
+}
+
+.banner-1 {
+  background: url("../assets/post1-capa.jpg") no-repeat;
+}
+
+.banner-2 {
+  background: url("../assets/post2-capa.jpg") no-repeat;
+}
+
+.banner-3 {
+  background: url("../assets/post3-capa.jpg") no-repeat;
+}
+
+.banner-4 {
+  background: url("../assets/post4-capa.jpg") no-repeat;
+}
+
+.banner-5 {
+  background: url("../assets/post5-capa.jpg") no-repeat;
+}
+
+.banner-6 {
+  background: url("../assets/post6-capa.jpg") no-repeat;
+}
+
+.banner-sobre {
+  background: url("../assets/sobre-capa.jpg") no-repeat;
 }
 
 /* Fim do estilo do banner */

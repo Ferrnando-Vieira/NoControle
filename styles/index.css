@@ -18,7 +18,7 @@
 }
 
 #ebook-principal {
-  margin-top: -180px;
+  margin-top: -139px;
   background-color: #fff;
   box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
   border-radius: 3px;
@@ -161,6 +161,14 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 20px;
+  }
+
+  #sobre-txt > p {
+    font-size: 24px !important;
+  }
+
+  #sobre-txt > h5 {
+    font-size: 32px !important;
   }
 }
 
