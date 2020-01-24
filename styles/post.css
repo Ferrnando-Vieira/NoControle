@@ -20,6 +20,11 @@
   border-radius: 16px;
 }
 
+#nos {
+  width: 75%;
+  height: auto;
+}
+
 .atalho-post img {
   border-radius: 8px;
 }
