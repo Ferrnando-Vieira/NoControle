@@ -6,7 +6,6 @@
 
 #sobre-txt {
   margin-top: 30px;
-  font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 21px;
@@ -16,7 +15,8 @@
   text-align: justify;
 }
 
-#sobre-txt img, .img-b {
+#sobre-txt img,
+.img-b {
   border-radius: 16px;
 }
 
