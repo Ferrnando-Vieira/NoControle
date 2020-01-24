@@ -7,7 +7,6 @@
 /* Inicio dos estilos específicos do Rodapé */
 footer {
   background: #1B48D1;
-  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.1);
 }
 
 #rodape {
@@ -47,6 +46,17 @@ footer {
 #sub {
   width: 100%;
   margin-top: 16px;
+}
+
+.a-midia {
+  margin-top: 16px;
+  margin-left: 16px;
+  background: #FFF;
+  width: auto;
+  height: auto;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 #sub a {
