@@ -106,11 +106,20 @@
   margin-bottom: 60px;
 }
 
-@media (max-width: 1200px) {
-  #texto-banner {
-    margin-top: 5px;
-  }
+.atalho-post img {
+  border-radius: 8px;
+}
 
+@media (max-width: 1200px) {
+  .thumb-blog {
+    min-width: auto;
+    min-height: auto;
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 990px) {
   #img-banner {
     max-width: 400px;
     max-height: 450px;
@@ -155,6 +164,28 @@
   }
 }
 
-.atalho-post img {
-  border-radius: 8px;
+@media (max-width: 770px) {
+  #img-banner {
+    max-width: 400px;
+    max-height: 450px;
+    width: auto;
+    height: auto;
+  }
+
+  #img-ebook-principal {
+    max-width: 350px;
+    max-height: 450px;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+
+  #ebook-principal {
+    margin-top: 20px;
+    height: 680px;
+  }
+  #div-descricao-ebook {
+    max-width: 400px;
+    margin: auto;
+  }
 }
